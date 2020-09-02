@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KodeTech100</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="kodetech100-logo.png">
+    <link rel="stylesheet" href="Assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/css/all.min.css">
+
+    <script src="Assets.js/all.min.js"></script>
+</head>
+
+<body>
+    <div class="main-body">
+
+        <!-- navbar itemss -->
+        <section class="top-navbar" style="background-color: white;z-index: 10;">
+            <div class="container">
+                <div class="row">
+                    <div class="navbaar-code-tech100-img col-6 col-sm-4">
+                        <img class="logo-img" src="kodetech100-logo.png" alt="kodetech100-logo">
+
+                    </div>
+
+
+
+                    <div class="navbar-items col-sm-8 d-none d-sm-none d-md-block">
+
+                        <div class="row justify-content-center">
+                            <div class="p-3">
+                                <a class="nav-items-list" href="#home">Home</a>
+                            </div>
+                            <div class="p-3">
+                                <a class="nav-items-list" href="#about-us">
+
+                                    About us
+                                </a>
+                            </div>
+                            <div class="p-3">
+                                <a class="nav-items-list" href="#services">services</a>
+                            </div>
+                            <div class="p-3">
+                                <a class="nav-items-list" href="#contact">contact us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-sm-block d-block d-md-none col-6">
+                        <button class="menu-button mt-4" onclick="myFunction()">
+                             <i class="fas fa-bars" style="color: #00458f;"></i>
+                         </button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- myfunction script -->
+        <script>
+            function myFunction() {
+                document.getElementById("side-menu").style.display = "block"
+            }
+
+            function closeNav() {
+                document.getElementById("side-menu").style.display = "none"
+            }
+        </script>
+
+        <section id="side-menu" class="side-menu" style="display: none;">
+            <div style="cursor: pointer; margin: 1rem 0 0 21rem;">
+                <a style="color: white; font-size: 2rem;" onclick="closeNav()">×</a></div>
+            <div style="margin-top: 3rem;">
+                <div class="side-items"> <a class="side-menu-items" href="#home" onclick="closeNav()">home</a></div>
+                <div class="side-items"> <a class="side-menu-items" href="#about-us" onclick="closeNav()">about us</a></div>
+                <div class="side-items"> <a class="side-menu-items" href="#services" onclick="closeNav()">services</a></div>
+                <div class="side-items"> <a class="side-menu-items" href="#contact" onclick="closeNav()">contact us</a></div>
+            </div>
+        </section>
+
+        <!-- landing banner -->
+        <section id="home" class="landing-banner">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-12 col-sm-6 col-md-6">
+                        <h1 style="color: white;">We provide</h1>
+                        <span style="color: powderblue; font-size:45px;">solutions </span> <br>
+                        <h1 style="color: white;" class="mb-5">
+                            for your problems!
+                        </h1>
+                        <div class="col-12">
+                            <a class="about-us-btn col-12 ml-sm-3 " href="#about-us">About us</a>
+                            <a id="services-sm-btn" class="our-services-btn col-12" href="#services">our services</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 d-sm-block d-none">
+                        <img class="intro-image" src="intro-img.svg" alt="intro-img">
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <!-- about us -->
+        <section id="about-us">
+            <div class="container">
+
+                <div class="d-flex justify-content-center mt-5">
+                    <h2>
+                        About Us
+                    </h2>
+                </div>
+
+                <div class="d-flex justify-content-center mt-2">
+                    <p>
+                        Some things that you should know about us
+                    </p>
+                </div>
+                <!-- about us -->
+                <section class="row mt-5">
+                    <div class="col-12 col-sm-6">
+                        <p class="mb-4" style="font-weight: bold;font-size: 1.5rem;">
+                            A LITTLE ABOUT US
+                        </p>
+                        <p>
+                            Initiated by highly experienced and well quipped software professionals, We at Kodetech100 aim to provide expertise development solutions and services in accordance with the requirements of your company and its perspectives. A group of young and energetic
+                            professionals with the main motive of providing varied range of development solutions with the highest level of satisfaction of our customers.
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <img src="team spirit.svg" class="w-100" alt="">
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- services -->
+        <section class="services" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mt-5">
+                        <h2 class="text-center ">
+                            Services
+                        </h2>
+
+                        <p class="text-center ">
+                            We are experts in digitizing your business
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="justify-content-around row">
+                    <div class="services-box col-10 col-sm-5 mt-5  mb-5" style="background-color: white;">
+                        <div class="icon-container position-absolute">
+
+                            <i class="fas fa-globe" style="color: rgb(255, 104, 155);"></i>
+
+                        </div>
+                        <div class="ml-5">
+                            <h4 class="text-center mt-4" style="font-weight: bold;">
+                                web developement
+                            </h4>
+
+
+                            <p>
+                                Our expertise in developing robust enterprise web applications with mobility and using cutting-edge technology.
+                            </p>
+
+
+                        </div>
+                    </div>
+                    <div class="services-box col-10 col-sm-5 mt-5 mb-5 " style="background-color: white;">
+
+                        <div class="icon-container position-absolute">
+
+                            <i class="fas fa-mobile" style="color: yellowgreen;"></i>
+                        </div>
+                        <div class="ml-5">
+                            <h4 class="text-center mt-4" style="font-weight: bold;">
+                                Mobile Apps
+                            </h4>
+
+                            <p>
+                                We create versatile mobile application for your business which runs in different platforms
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- why choose us -->
+        <section class="why-choose-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mt-5">
+                        <h2 style="color: white;" class="text-center">
+                            Why Choose Us ?
+                        </h2>
+                        <p style="color: white;" class="text-center">
+                            3 Reasons to choose us
+                        </p>
+                    </div>
+
+
+                </div>
+                <div class="row justify-content-around mt-5 mb-5">
+                    <div class="card text-white mb-3 col-12 col-sm-4 col-md-3 " style="max-width: 18rem; background-color: #00458f;">
+                        <div class="card-header">VALUE OUR CUSTOMER</div>
+                        <div class="card-body">
+
+                            <p class="card-text">We appreciate and respect the time and effort of our customers. We work with great zeal and handle it with transparency .</p>
+                        </div>
+                    </div>
+
+                    <div class="card text-white mb-3 col-12 col-sm-4 col-md-3 " style="max-width: 18rem; background-color: #00458f;">
+                        <div class="card-header">PROFESSIONALISM</div>
+                        <div class="card-body">
+
+                            <p class="card-text">We believe in excellent quality and never lower our standards with respect to time. We believe in doing and not saying also doing right in the first go.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card text-white mb-3 col-12 col-sm-4 col-md-3 " style="max-width: 18rem; background-color: #00458f;">
+                        <div class="card-header">QUALITY VS TIME</div>
+                        <div class="card-body">
+
+                            <p class="card-text">We never make a compromise on quality against time. We strongly believe in "Do-it-right-the-first-time" ! And we never promise what we can not do !.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <section id="contact" class="contact-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-10 col-sm-5 col-md-4">
+                        <div class="text-center">
+                            <h2 style="font-weight: bold;">
+                                kodetech100
+                            </h2>
+                        </div>
+                        <div class="card-body">
+
+                            <p class="card-text" style="color: black;">In the present scenario i.e. the ever growing and changing environment, our professional consultants at Kodetech100 will do anything it takes to do the right work at the right time and provide innovative solutions with a significant
+                                return on your investment.</p>
+                        </div>
+                    </div>
+                    <div class="col-10 col-sm-3 col-md-4">
+                        <div class="text-center">
+                            <h4 style="font-weight: bold;">
+                                Usefull Links
+                            </h4>
+                        </div>
+                        <div>
+
+                            <div class="text-center m-2"><a href="#home">home</a></div>
+
+                            <div class="text-center m-2"><a href="#about-us">about us</a></div>
+
+                            <div class="text-center m-2"><a href="#services">services</a></div>
+
+                        </div>
+                    </div>
+                    <div class="col-10 col-sm-4 col-md-4">
+                        <div class="text-center">
+                            <h2 style="font-weight: bold;">
+                                Contact us
+                            </h2>
+                        </div>
+                        <div class="card-body">
+
+                            <p class="card-text" style="color: black; overflow: hidden;">
+                                No.160, sri rama kuppam,<br> seethanjeri(post),<br> uthukottai(talk),<br> chennai 602026,<br>
+                                <a href="tel:944-529-6380"><b>Phone:</b> +91 9445296380</a> <br><a href="mailto:kodetech100@gmail.com"><b>Email:</b> kodetech100@gmail.com</a>
+                            </p>
+                            <div class="d-flex">
+                                <div class="social">
+                                    <a href="https://www.facebook.com/don.deva.543/"><i
+                                            class="fab fa-facebook-square social-icon"></i></a>
+                                </div>
+                                <div class="social">
+                                    <a href="https://www.instagram.com/devendran.27/"><i class="fab fa-instagram-square social-icon"></i></a>
+                                </div>
+                                <div class="social">
+                                    <a href="https://www.linkedin.com/in/devendran-vemula-4966611b3/"><i class="fab fa-linkedin social-icon"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="text-center" style="background-color: #00428a;">
+            <p style="color: white;"> © 2020 Copyright Kodetech100. All Rights Reserved</p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
