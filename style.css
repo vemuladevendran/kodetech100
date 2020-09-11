@@ -14,6 +14,13 @@ body {
     height: 100vh;
 }
 
+.top-arrow {
+    position: sticky;
+    top: 90%;
+    left: 90%;
+    z-index: 100;
+}
+
 
 /* navbar items */
 
