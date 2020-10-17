@@ -302,8 +302,12 @@
                 </div>
             </div>
         </section>
+        <script>
+            var NewYear = new Date();
+            document.getElementById("date").innerHTML = NewYear.getFullYear();
+        </script>
         <footer class="text-center" style="background-color: #00428a;">
-            <p style="color: white;"> © 2020 Copyright Kodetech100. All Rights Reserved</p>
+            <p style="color: white;"> © <span id = 'date'></span> Copyright Kodetech100. All Rights Reserved</p>
         </footer>
 
     </div>
